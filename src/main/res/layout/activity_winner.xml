@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_winner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="edu.ramapo.kcalabro.longana.view.WinningActivity">
+
+    <TextView
+        android:text="Computer Tournament Score:"
+        android:textSize="42sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/computerTournamentScore" />
+
+    <TextView
+        android:text="Human Tournament Score:"
+        android:textSize="42sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/humanTournamentScore"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tournamentScoreLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Tournament Score Limit:"
+        android:textColor="#000000"
+        android:textSize="80sp" />
+
+    <TextView
+        android:text="Winner: "
+        android:textSize="60sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/winner"
+        android:layout_marginTop="48dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buttonborder"
+        android:text="  New Tournament  "
+        android:textSize="42sp" />
+
+</LinearLayout>

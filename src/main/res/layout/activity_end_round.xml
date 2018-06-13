@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    tools:context="edu.ramapo.kcalabro.longana.view.EndRoundActivity">
+
+    <TextView
+        android:id="@+id/tournamentScoreLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Tournament Score Limit: "
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/computerRoundScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Computer Round Score: "
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/humanRoundScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Human Round Score: "
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/computerTournamentScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Computer Tournament Score: "
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/humanTournamentScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Human Tournament Score: "
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Round Winner: "
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonborder"
+            android:text="  Next Round  "
+            android:textSize="24sp"
+            android:id="@+id/newRoundButton" />
+    </LinearLayout>
+
+</LinearLayout>
